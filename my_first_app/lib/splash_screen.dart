@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_app/homepage.dart';
+//import 'package:my_first_app/homepage.dart';
+import 'package:my_first_app/login_screen_page.dart';
 
 class SplashScreenPage extends StatefulWidget {
   @override
@@ -12,7 +13,8 @@ class _SplashScreenPageState extends State<SplashScreenPage> {
     Future.delayed(const Duration(seconds: 2), () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => const MyHomePage()),
+        //MaterialPageRoute(builder: (context) => const MyHomePage()
+        MaterialPageRoute(builder: (context) => LoginScreenPage()),
       );
     });
     super.initState();
