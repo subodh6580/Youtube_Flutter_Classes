@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 //import 'package:my_first_app/homepage.dart';
 import 'package:my_first_app/login_screen_page.dart';
 
-class ProfileScreenPage extends StatefulWidget {
+class ChangePasswordPage extends StatefulWidget {
   @override
-  State<ProfileScreenPage> createState() => _ProfileScreenPageState();
+  State<ChangePasswordPage> createState() => _ChangePasswordPageState();
 }
 
-class _ProfileScreenPageState extends State<ProfileScreenPage> {
+class _ChangePasswordPageState extends State<ChangePasswordPage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
         child: Text(
-          'Profile Screen Page',
+          'Change Password Screen Page',
           style: TextStyle(fontSize: 30),
         ),
       ),
